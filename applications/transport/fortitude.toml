@@ -18,3 +18,12 @@ select = ["E000", "E001", "C001", "C021", "C022", "C031", "C032", "C043",
 
 
 output-format = "grouped"                #group results by file
+
+[check.per-file-ignores]
+
+"applications/transport/unit-test/initialisation/analytic_tracer_field_profiles_mod_test.pf" = ["E001"]
+
+"applications/transport/unit-test/kernel/initial_tracer_field_sample_kernel_mod_test.pf" = ["E001", "C121"]
+
+"applications/transport/unit-test/kernel/set_tracer_field_kernel_mod_test.pf" = ["E001", "C121"]
+

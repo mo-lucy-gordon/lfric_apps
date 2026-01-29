@@ -18,3 +18,9 @@ select = ["E000", "E001", "C001", "C021", "C022", "C031", "C032", "C043",
 
 
 output-format = "grouped"                #group results by file
+
+
+[check.per-file-ignores]
+
+"applications/gravity_wave/unit-test/*" = ["E001"]
+"applications/gravity_wave/unit-test/kernel/*" = ["C121"]
