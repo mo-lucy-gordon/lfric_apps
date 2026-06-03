@@ -19,7 +19,7 @@ select = ["E000", "E001", "C001", "C021", "C022", "C061", "C071", "C072",
 # C021 real literal missing kind suffix,
 # C022 implicit-real-kind, C031 magic-number-in-array-size,
 # C032 magic unit in IO statement, C043 missing-action-specifier,
-# C051 trailing-backslash, C061 missing-intent, C071 assumed-size,
+# C061 missing-intent, C071 assumed-size,
 # C072 character has assumed size but does not have intent(in),
 # C081 initialisation-in-declaration, C091 external-procedure,
 # C082 pointer-initialisation-in-declaration, C092 procedure-not-in-module,
@@ -96,7 +96,7 @@ output-format = "grouped"                #group results by file
 
 
 # Rules that pass for whole Lfric repo with no exceptions:
-# E000, C031, C032, C043, C051, C091, C082, C141,
+# E000, C031, C032, C043, C091, C082, C141,
 # OB011, OB021, OB051, OB061, MOD001, PORT011, PORT012,
 # PORT021, FORT001, FORT002, FORT003, FORT004, FORT005
 
